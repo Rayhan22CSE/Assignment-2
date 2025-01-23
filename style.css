@@ -1,0 +1,725 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Splash&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+   
+:hover .btn-primary {
+    cursor: pointer;
+    color:  grey;
+}
+
+body {
+    margin: auto;
+    font-family: "Quicksand", serif;
+    background-color: #ffffff;
+    color: #333;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+main {
+    background-image: url(../assets/bg.png);
+}
+.quicksand-kids {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+} 
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ;
+}
+.ho{
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+header {
+    
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.about {
+    color: orange;
+    text-decoration: none;
+}
+.home {
+    color: #01ACFD;
+    text-decoration: none;
+}
+.faci {
+    color: #05D4DF ;
+    text-decoration: none;
+}
+.Admission {
+    color:#5D58EF ;
+    text-decoration: none;
+}
+.btn-primary {
+    height: 50px;
+    width: 197px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+} /*for menu */
+  .menu {
+    display: none;
+  }
+.emp {
+            color: orange;
+}
+.towards {
+    color: skyblue;
+}
+.enroll {
+    background-color: black;
+    color: white;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 24px;
+}
+.banner{
+    display: flex;
+      align-items: center;
+    text-align: center;
+    margin: 50px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.img-hero {
+    
+}
+.em {
+    
+    
+    width: 50%;
+    
+}
+.e{
+    
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.stand {
+    background-image: url("..assets/bg.png");
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.cards {
+     max-width:  100%;
+     display: flex;
+     gap: 28px;
+     margin: 20px;
+     
+}
+.card {
+    
+    background: linear-gradient(   #DEF5FF,#FFFFFF  );
+    box-sizing: border-box;
+    margin-top: 50px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    
+}
+.kinder-img {
+    
+    margin-top: 50px;
+    margin-left: 30%;
+}
+/* card part */
+.card-des {
+    
+    line-height: 30.7px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20%;
+
+}
+.card-p {
+    gap: 50px;
+    padding: 20px;
+}
+.read1{
+    width: 102px;
+    height: 28.3px;
+    color: #64C8FF;
+    border: none;
+    background: none;
+    margin-left: 130px;
+    cursor: pointer;
+    
+}
+.read2 {
+    color: orange;
+}
+.card1 {
+    background: linear-gradient(#FFF4DC,#FFFFFF);
+}
+.card2 {
+    background: linear-gradient(#F2E8FF,#FFFFFF)
+}
+.read3 {
+    color: #8700FF;
+}
+.arrow {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    justify-items: center;
+      margin-left: 50%;
+      display: flex;
+      gap: 5px;
+}
+ .our {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    font-size: 46px;
+    font-weight: bold;
+    margin-left: 10%;
+ }
+.story {
+    box-sizing: border-box;
+    border:  0 solid ;
+
+    
+    display: flex;
+    gap: 50px;
+    
+    margin-right: 50px;
+}
+.story1 {
+    width: 34%;
+    margin-left: 15%;
+    
+    
+    box-sizing: border-box;
+    
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    
+
+
+}
+
+.date {
+    text-align: center;
+    width: 174px;
+    height: 50px;
+    background-color:#3CD8E8 ;
+    border-radius: 47px;
+    border: none;
+    align-items: center;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 310px;
+}
+.our-stories {
+    margin: 20px;
+    box-sizing: border-box;
+
+}
+
+.fun {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+.story2 {
+    box-sizing: border-box;
+    gap: 10px;border: 1px solid whitesmoke;
+    background: white;
+    border-radius: 15px;
+
+    
+    
+
+
+
+}
+
+.date2 {
+    margin-top: 140px;
+    background-color:#95B226 ;
+    margin-left: 3%;
+    box-shadow: #DEF5FF;
+    border: 1px solid gray;
+}
+.find {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.date3{
+    background-color: #5D58F0;
+}
+.storyp-2 {
+display: grid;
+ grid-template-columns: 1fr 1fr  ;
+width: 34%;
+    column-gap: 10px;
+    row-gap: 30px;
+    margin-right: 15%;
+    
+
+}
+.Beautiful {
+    margin-bottom: 50px;
+    padding: 20px ;
+}
+
+.view {
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    margin-left: 45%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+
+}
+.story1-img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+    
+}
+.story-2img {
+    border-radius: 15px;
+}
+.whole-story {
+    background: linear-gradient(white,rgba(255, 166, 0, 0.153));
+}
+/* footer part */
+footer {
+    
+
+    background-color:#01ACFD ;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    justify-content: space-between;
+    padding: 80px;
+}
+.logo-kids {
+    display: flex;
+    
+    margin-bottom: 30px;
+    gap: 10px;
+    color: white;
+    margin-top: 30px;
+
+}
+.kids {
+    width: 30%;
+    margin-left: 150px;
+}
+.pizza {
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.edu {
+    margin-top: 10px;
+}
+.last {
+    text-decoration: none;
+    list-style: none;
+    
+}
+.h {
+    text-decoration: none;
+}
+.abou {
+    text-decoration: none;
+}
+.fac{
+    text-decoration: none;
+}
+.Admissio {
+    text-decoration: none;
+}
+.ab {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.la {
+    display: flex;
+    
+}
+.keep-in {
+    margin-left: 60%;
+    margin-top: 50px;
+}
+.about-school {
+    margin-left: 50%;
+    color: white;
+}
+.kids {
+    margin-left: 5%;
+}
+.last {
+    gap: 5px;
+    color: white;
+}
+.keep {
+    margin-bottom: 10px;
+    color: white;
+}
+.h,.abou ,.fac,.Admissio {
+    color: white;
+}
+.pizza {
+    color: white;
+}
+.logo-footer {
+    color: rgba(255, 255, 255, 0.16);
+}
+/* for mobile */
+@media screen and (max-width : 576px) {
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        background-image: none;
+    }
+     nav h4 {
+        display: none;
+        
+        
+     }
+     .logo1 {
+        width: 46px;
+        height: 46px;
+        margin: 0;
+     }
+     .ho,.btn-primary {
+        display: none;
+     }
+     
+     .menu {
+        display: initial;
+        width: 30px;
+        height: 30px;
+        
+     }
+     nav {
+        width: 350px;
+        height: 70px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        
+     }
+     
+
+     .banner {
+        
+        
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        
+        height: 725px;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 340px;
+        height: 725px;
+        
+
+        
+        
+        
+     }
+     .em {
+        width: 357px;
+        height: 252px;
+        margin: 0;
+     }
+     .with {
+        font-size: 14px;
+     }
+     .enroll {
+        width: 131px;
+        height: 42px;
+        
+        text-align: center;
+     }
+     .img-hero {
+        width: 100%
+     }
+     .cards {
+         margin: 0;
+        flex-direction: column;
+        margin-right: 0;
+        
+        width: 357px;
+        gap: 0;
+        margin-top: 5px;
+        
+     }
+     
+     .our-stories {
+        margin-left: 3%;
+     }
+     .story1 {
+        display: none;
+        width: 0;
+     }
+     .story2 {
+        box-sizing: border-box;
+        
+        margin-left: 10px;
+        
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        width: 100%;
+     }
+     .date2 {
+        width:90px ;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 0;
+
+     }
+     .storyp-2 {
+          
+        row-gap:5px;
+        column-gap: 5px;
+        margin-left: 5%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        
+        width: 100%;
+        
+        gap: 11px;
+        
+     }
+     .find {
+        margin-top: 0px;
+        font-size: 10;
+        font-weight: bold;
+     }
+     .view
+     {
+        display: initial;
+
+        margin-left: 20%;
+     }
+     footer {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        margin-left: 0;
+        
+        padding: 0px;
+
+     }
+     .la {
+         
+         flex-flow: column;
+         
+        
+        
+
+        
+     }
+     .keep-in {
+        margin-left: 30px;
+      margin-top: 10px;
+      justify-content: left;
+      margin-bottom: 10px;
+     }
+     .about-school {
+        margin-left: 30px;
+        
+     }
+     .kids {
+        margin-bottom: 0;
+     }
+     .pizza {
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: 20px
+        ;
+     }
+     .last {
+    
+        margin-top: 0px;
+        margin-bottom: 2px;
+     }
+
+     .logo-kids {
+        margin-bottom: 10px;
+        max-width: 100%;
+
+     }
+     
+     .img-hero {
+        width: 336px;
+        height: 413px;
+        
+     }
+    
+     .stand {
+        width: 261px;
+        height: 33px;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        margin-left: 15%;
+     }
+     
+     .card {
+        
+        width: 100%;
+        
+        margin-right: 0;
+     margin-top: 5px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+
+     }
+     .kinder-img {
+        width: 92px;
+        height: 92px;
+        margin-top: 10px;
+        justify-content: center;
+
+        text-align: justify;
+        margin-left: 35%;
+
+     }
+     .card-des {
+        font-weight: bold;
+        font-size: 16.6px;
+        margin-left: 30%;
+        margin-top: 5px;
+        margin-bottom: 0;
+     }
+     .card-p {
+    margin-top: 0px;
+    
+        
+     }
+     .arrow {
+        display: none;
+     }
+     .our {
+        margin :0;
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: 0px;
+     }
+     .our-stories {
+        margin: 0;
+        margin-top: 0;
+     }
+     .story-2img {
+        width: 150px;
+        height: 105px;
+        margin-left: 0;
+        
+     }
+     .our-stories {
+        margin: 0;
+     }
+     .date {
+        margin-left: 2%;
+        margin-top:90px ;
+     }
+     .find {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+        margin-top: 10px;
+     }
+     .story2 {
+        box-sizing: border-box;
+        
+        margin-left: 0;
+     }
+     
+     .view {
+        width: 134px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 12px;
+        margin-left: 30%;
+     }
+    
+     .logo-kids {
+        margin-top: 0;
+        width: 70px;
+        height: 70px;
+     }
+     
+     .edu {
+        font-size: 25px;
+        font-weight: bold;
+     }
+     .pizza {
+        margin-top: 5px;
+        font-size: 16px;
+        letter-spacing: 0;
+        width: 357px;
+        margin: 0;
+        margin-right: 5px;
+     }
+     .keep{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 0;
+
+     }
+     .last {
+        margin-bottom: 0;
+        margin-top: 0;
+     }
+     .ab {
+        font-weight: bold;
+        font-size: 20;
+        margin-bottom: 0px;
+        
+     }
+     
+     
+
+     
+}
